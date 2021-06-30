@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 public class Main {
     /*
         Ejercicio: en una empresa, después del quinto año de permanencia brinda a sus

@@ -7,6 +7,8 @@ public class Main {
             - Año de nacimiento.
         Con estos datos se busca calcular la posible edad de la persona.
 
+        edad -> año, meses, días.
+
         Por ejemplo:
             - Nombre -> Juan.
             - Año de nacimiento -> 1992.
@@ -20,7 +22,7 @@ public class Main {
             A continuación, el usuario podrá definir el valor de la variable 'x'.
             Toda variable definida por usuario es de tipo 'String'.
          */
-        String x = scanner.nextLine();
+        String x = scanner.nextLine();      //input() - Python
         System.out.println("Escribiste que 'x' es igual a " + x);
     }
 }
