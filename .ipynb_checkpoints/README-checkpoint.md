@@ -10,7 +10,7 @@ En este repositorio encontrarás todo el material desarrollado para aprender Jav
 
 ### __Material interactivo__
 
-A continuación, podrás acceder al material interactivo desarrollado de las bases del lenguaje:
+A continuación, podrás acceder al material interactivo desarrollado para familiarizarte con las bases del lenguaje:
 
 | Título | Temas | Enlace |
 | ------ | ------- | ------ |
