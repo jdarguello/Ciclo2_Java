@@ -1,144 +1,0 @@
-13:58:19 De  Cristina Guzman  a  Todos : Buenas tardes
-14:02:46 De  José Antonio Rivera Urbina  a  Todos : Buenas tardes
-14:02:55 De  Carolina Bustos  a  Todos : Buenas tardes!!
-14:03:19 De  Jhon Fredy Márquez Cárdenas  a  Todos : Buenas tardes
-14:04:06 De  zoom825@uis.edu.co  a  Todos : Hola chicos, muy buenas tardes. En un momento daremos inicio :)
-14:04:31 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : Hola profeeeee
-14:04:44 De  zoom825@uis.edu.co  a  Liliana Janeth Rodríguez(Mensaje directo) : Hola Liliana :D
-14:06:49 De  Anlly Velásquez Rodríguez  a  Todos : Buenas tardes!
-14:07:27 De  Arnol Espitaleta Sierra  a  Todos : Eclipse es buena opción
-14:07:46 De  José Antonio Rivera Urbina  a  Todos : Netbeans
-14:07:51 De  zoom825@uis.edu.co  a  Todos : Jdoodle
-14:07:59 De  Anlly Velásquez Rodríguez  a  Todos : Sublime Text 3
-14:08:06 De  José Antonio Rivera Urbina  a  Todos : Replit
-14:08:42 De  José Antonio Rivera Urbina  a  Todos : Replit y deja guardar en githut
-14:12:21 De  Hoover Aragon  a  Todos : compañeros buenas tardes, al fin que dijo el profesor Juan David acerca de nuestra solicitud
-14:12:31 De  Hoover Aragon  a  Todos : es que acabe de entrar 
-14:13:14 De  Ferney F Roa H  a  Todos : Hola a todos. Buenas tardes.
-14:14:00 De  Hoover Aragon  a  Todos : ok gracias profe
-14:15:40 De  Carolina Bustos  a  Todos : Por que no con Netbeans para aprenderlo a manejar?
-14:15:44 De  yorsy de la cruz  a  Todos : Buen día, si tienen un grupo de WhatsApp o de telegram ?
-14:16:39 De  Carolina Bustos  a  Todos : Vale
-14:17:06 De  Miller Alexander Quiroga Campos  a  Todos : Yorsy ya te envío invitación del grupo de Telegram
-14:17:24 De  yorsy de la cruz  a  Todos : gracias
-14:18:26 De  Miller Alexander Quiroga Campos  a  Todos : https://t.me/joinchat/DorPg8HZsF0wMDVh
-14:18:41 De  Miller Alexander Quiroga Campos  a  Todos : Ingresen al link, y se adicionan automáticamente…!!!!
-14:20:02 De  zoom825@uis.edu.co  a  Todos : https://github.com/jdarguello/Ciclo2_Java
-14:26:11 De  Carolina Bustos  a  Todos : Por la cantidad de decimales
-14:26:32 De  Fabio Martínez  a  Todos : por ejemplo el pi seria mas preciso
-14:29:17 De  Fabio Martínez  a  Todos : profe por java dejo de ser libre Java y que implicaciones trae?
-14:29:53 De  Arnol Espitaleta Sierra  a  Todos : La 8
-14:29:55 De  Arnol Espitaleta Sierra  a  Todos : Aguanta todavia
-14:30:16 De  Arnol Espitaleta Sierra  a  Todos : Open Jdk
-14:30:24 De  Arnol Espitaleta Sierra  a  Todos : Usa muchas cosas de 8 en adelante
-14:30:27 De  Arnol Espitaleta Sierra  a  Todos : Para tratar de dar soporte
-14:30:34 De  Arnol Espitaleta Sierra  a  Todos : Sucede que Oracle, lo compró
-14:30:37 De  Arnol Espitaleta Sierra  a  Todos : Al igual que mysql
-14:30:44 De  Arnol Espitaleta Sierra  a  Todos : Por eso la gente migra a python
-14:30:48 De  Arnol Espitaleta Sierra  a  Todos : Y Mariadb
-14:30:52 De  Arnol Espitaleta Sierra  a  Todos : O Postgres
-14:33:13 De  Gilson Aranda  a  Todos : El array es como una lista? o con que podria compararse en python
-14:34:07 De  Gilson Aranda  a  Todos : Gracias profe
-14:37:11 De  zoom825@uis.edu.co  a  Todos : https://www.jdoodle.com/online-java-compiler/
-14:49:55 De  Diana Lucia Lucumi - Tuluá  a  Todos : buena tarde, por favor me recuerdan la contraseña para la asistencia
-14:51:12 De  Carolina Bustos  a  Todos : Mira que string comience con S mayúscula a ver si es eso
-14:52:54 De  zoom825@uis.edu.co  a  Todos : https://github.com/jdarguello/Ciclo2_Java/blob/master/Clases/Variables/Ejercicio1/src/Main.java
-14:55:14 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : Profe como ajusto el cursor al final
-14:55:26 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : es que me sale como corrido y no sé que estoy escribiendo
-14:55:40 De  Carolina Bustos  a  Todos : Se queda ejecutando
-14:55:44 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : no
-14:55:55 De  Carolina Bustos  a  Todos : Ya
-14:55:56 De  Carolina Bustos  a  Todos : Dale
-14:56:03 De  Yofza Beltran  a  Todos : Disculpen, cuál es el codigo para asistencia
-14:56:33 De  zoom825@uis.edu.co  a  Todos : Contraseña: b0b84y
-14:57:00 De  Diana Milena Cubillos  a  Todos : import java.util.Scanner;
-14:57:00 De  Arnol Espitaleta Sierra  a  Todos : Importar la libreria
-14:57:19 De  Andrés Fuentes  a  zoom825@uis.edu.co(Mensaje directo) : Profe, buenas tardes. Me aparece el siguiente error a pesar que le coloqué Interactive: "Connection to server lost. It is possible your browser or internet connection may not support the Interactive mode. Please try again, or try Non-Interactive mode. Alternatively contact JDoodle support at jdoodle@nutpan.com."
-14:57:42 De  Yofza Beltran  a  Todos : Gracias
-14:57:55 De  Anlly Velásquez Rodríguez  a  Todos : import java.util.Scanner;
-14:58:30 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : a mi me sale que no encuentra la clase publica
-14:58:34 De  Diana Quijano  a  Todos : jajajajaja
-15:00:06 De  zoom825@uis.edu.co  a  Todos : Cambiar "Main" por "MyClass"
-15:01:26 De  Sonia Alexandra Moreno Roncancio  a  Todos : ES porque esta traducido a español en ingles no pasa
-15:01:38 De  Arnol Espitaleta Sierra  a  Todos : Si algún ad killer
-15:01:39 De  Arnol Espitaleta Sierra  a  Todos : jajaj
-15:02:47 De  zoom825@uis.edu.co  a  Todos : https://github.com/jdarguello/Ciclo2_Java/blob/master/Clases/Variables/Ejercicio1/src/Main.java
-15:04:01 De  Andrés Felipe Páez C.  a  Todos : Opera o Brave son buenas opciones
-15:04:27 De  Brian Torres  a  Todos : Yo usaba brave, pero actualmente uso Opera Gx que es muy bueno
-15:04:27 De  Fabio Martínez  a  Todos : Safari en IOS?
-15:06:45 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : Profe se me acaba de presentar una emergencia en planta... me tengo que ir
-15:06:54 De  Liliana Janeth Rodríguez  a  zoom825@uis.edu.co(Mensaje directo) : bye
-15:06:56 De  zoom825@uis.edu.co  a  Liliana Janeth Rodríguez(Mensaje directo) : Entiendo:/
-15:10:29 De  Carolina Bustos  a  Todos : Este formato es general ? new Scanner(System.in);
-15:11:08 De  Carolina Bustos  a  Todos : Gracias
-15:11:45 De  kevin max  a  Todos : hola tyeacher púedes compartir de nuevo el código?
-15:11:48 De  kevin max  a  Todos : gerracias
-15:12:07 De  zoom825@uis.edu.co  a  Todos : Contraseña: b0b84y
-15:12:25 De  kevin max  a  Todos : y el de java, gracias  jijijijij
-15:12:36 De  zoom825@uis.edu.co  a  Todos : Jajaja
-15:12:47 De  Angie Julieth Losada Ossa  a  zoom825@uis.edu.co(Mensaje directo) : Profesor que pena con usted, debo retirarme ya que se presentó un inconveniente familiar. En la noche si todo sale bien le enviaré un correo para que me colabore con un error que me apareció en intellij. Feliz día
-15:12:51 De  Fabio Martínez  a  Todos : https://github.com/jdarguello/Ciclo2_Java/blob/master/Clases/Variables/Ejercicio1/src/Main.java
-15:13:34 De  zoom825@uis.edu.co  a  Todos : import java.util.Scanner;   //input() public class MyClass {    /*Ejercicio:            - Nombre.            - Año de nacimiento.        Por ejemplo:            - Nombre -> Juan.            - Año de nacimiento -> 1992.            - Respuesta: "Juan nació en 1992 y posiblemente tenga 29 años".     */    public static void main(String[] args) {        //Para la parte interactiva, requerimos usar la librería Scanner        Scanner scanner = new Scanner(System.in);   //Iniciamos con la creación de la variable        //---Desarrollo---        System.out.println("Ejemplo de impresión...");        /*            A continuación, el usuario podrá definir el valor de la variable 'x'.            Toda variable definida por usuario es de tipo 'String'.         */        String x = scanner.nextLine();        System.out.println("Escribiste que 'x' es igual a " + x);    }}
-15:13:46 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Hola! Una pregunta, esto estaría bien para preguntar la edad? byte y = año.nextline();  — > me dice señalando el punto entre año y nextiline que no puede encontrar el símbolo
-15:14:27 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : Entiendo, hay dos cosas a tener en cuenta
-15:14:31 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Dale
-15:14:51 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : La primera: nextLine() nos genera una variable String
-15:15:29 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Ya
-15:15:30 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : y la segunda: recuerda que Byte está entre -128 y 127
-15:15:49 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : por lo que el año se quedará "corto". Puedes usar el tipo "short"
-15:15:51 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Ah, buen punto, sirve para edad pero no para año. Que sirve como nextLine pero para números?
-15:16:21 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : Y puedes implementar nextShort() para que no haya conflicto; o sea: short y = año.nextShort();
-15:16:21 De  Brian Torres  a  Todos : ya creo que lo tengo profe
-15:16:29 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Perfecto, gracias
-15:16:55 De  zoom825@uis.edu.co  a  Todos : Perfecto Brian, esperemos un momento a que los demás compañeros tengan un avance :)
-15:18:47 De  Miller Alexander Quiroga Campos  a  Todos : profe.., me indica un error dentro del paréntesis
-15:18:48 De  Miller Alexander Quiroga Campos  a  Todos : int y = scanner.nextLine();
-15:19:13 De  Miller Alexander Quiroga Campos  a  Todos : Si la estoy declarando bien¿?
-15:19:40 De  zoom825@uis.edu.co  a  Todos : Sí Miller, lo que pasa es que scanner.nextLine() te retorna una variable String. Podrías intentar con scanner.nextInt()
-15:20:01 De  zoom825@uis.edu.co  a  Todos : O convertir el String en número
-15:20:43 De  Miller Alexander Quiroga Campos  a  Todos : ok.., gracias profe
-15:22:09 De  Miller Alexander Quiroga Campos  a  Todos : profe.., ese era el error.., muchas gracias…!!!
-15:22:19 De  zoom825@uis.edu.co  a  Todos : Con gusto :)
-15:22:38 De  José Antonio Rivera Urbina  a  Todos : Listo
-15:23:49 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : Pude con esa ayuda. Mil gracias
-15:24:01 De  zoom825@uis.edu.co  a  Carolina Bustos(Mensaje directo) : Con gusto :D
-15:24:34 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : jajajajaja
-15:25:26 De  Andrés Felipe Páez C.  a  Todos : parse
-15:25:42 De  Andrés Fuentes  a  zoom825@uis.edu.co(Mensaje directo) : Profe, tengo algo, no sé si esté bien
-15:25:57 De  Carolina Bustos  a  zoom825@uis.edu.co(Mensaje directo) : No era el que decías de paserInt() ?
-15:26:10 De  Andrés Felipe Páez C.  a  Todos : En este caso parseInt si se quiere transformar
-15:27:35 De  Fabio Martínez  a  Todos : como en Oracle?
-15:31:02 De  Carolina Bustos  a  Todos : Hace corto circuito en la resta
-15:31:25 De  Carolina Bustos  a  Todos : No, ahora sí funciona
-15:31:42 De  Carolina Bustos  a  Todos : El que hace corto es X
-15:31:49 De  Carolina Bustos  a  Todos : Perdón, es z como short
-15:33:46 De  Gilson Aranda  a  Todos : Estamos en modo Jython
-15:37:17 De  Andrés Felipe Páez C.  a  Todos : Los métodos parse reciben como argumento un string, no pueden transformar otros tipos de datos
-15:38:16 De  Carolina Bustos  a  Todos : Y shortValue?
-15:39:44 De  Andrés Felipe Páez C.  a  Todos : En este caso shortValue si funcionaría ya que se está intentando transformar un int
-15:42:17 De  Carolina Bustos  a  Todos : Gracias Andrés
-15:46:36 De  JUAN ALBA  a  zoom825@uis.edu.co(Mensaje directo) : hola profe no pude imprimir . el ejercicio.
-15:57:39 De  kevin max  a  Todos : VOY ENTENDIENDO..... PODRIAMOS REPASAR ESTO  MAÑANA??
-16:00:37 De  zoom825@uis.edu.co  a  JUAN ALBA(Mensaje directo) : Hola Juan, si deseas, puedes participar
-16:01:17 De  SHIRLEY CORREA  a  Todos : regaleme la contraseña de la asistencia
-16:01:37 De  Carolina Bustos  a  Todos : Muchas gracias por todo. Feliz día!
-16:01:37 De  zoom825@uis.edu.co  a  Todos : Contraseña: b0b84y
-16:01:39 De  Cristina Guzman  a  Todos : Gracias profe
-16:02:38 De  Fabio Martínez  a  Todos : profe cuales son sus horarios de Java?
-16:02:52 De  Luis Carlos Nova Santos  a  Todos : Profe varios de J17 queremos pasarnos al J18
-16:02:56 De  Diana Quijano  a  Todos : Estoy igual
-16:03:07 De  SHIRLEY CORREA  a  Todos : profe no aparece habilitada la asistencia del dia de hoy
-16:03:17 De  Anlly Velásquez Rodríguez  a  Todos : Muchas gracias!!!
-16:03:23 De  Luis Carlos Nova Santos  a  Todos : Hemos escrito por mesa de ayuda, esperamos poder pasar acá
-16:03:31 De  Arnol Espitaleta Sierra  a  Todos : Hasa luego y gracias por todo profe
-16:03:32 De  zoom825@uis.edu.co  a  Todos : 8:00 - 10:00 a.m. , 10:00 - 12:00 m.
-16:03:39 De  Fabio Martínez  a  Todos : y grupos
-16:03:42 De  zoom825@uis.edu.co  a  Todos : J65 y J80
-16:03:47 De  zoom825@uis.edu.co  a  Todos : respectivamente
-16:05:02 De  jose antonio Rivera Urbina  a  Todos : profe para registrar la asistencia
-16:05:20 De  Diana Quijano  a  Todos : Contraseña: b0b84y
-16:05:44 De  Jenniffer Botia  a  Todos : Listo, profe gracias
-16:05:53 De  Andrés Fuentes  a  Todos : Gracias profe, buen día
-16:06:20 De  Diana Lucia Lucumi - Tuluá  a  Todos : muchas gracias profe
-16:06:26 De  Diana Lucia Lucumi - Tuluá  a  Todos : feliz ttarde
-16:06:40 De  Fabio Martínez  a  Todos : Gracias
