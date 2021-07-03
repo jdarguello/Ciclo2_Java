@@ -22,5 +22,5 @@ Reto1
 
 Debes utilizar las dos clases desarrolladas:
 
-* Clase Main (_Main.java_) $\rightarrow$ contiene la estructura interactiva con el usuario (__no debes modificarla__).
-* Clase POS $\hspace{0.02cm}$ (_POS.java_) $\hspace{0.04cm}$ $\rightarrow$ contiene la lógica detrás de las entradas de usuario: crea la base de datos e imprime las facturas y el resumen de ventas. Concéntrate en los métodos `Factura` y `ResumenVentas` para solucionar el reto.
+* Clase Main (_Main.java_) -> contiene la estructura interactiva con el usuario (__no debes modificarla__).
+* Clase POS (_POS.java_) -> contiene la lógica detrás de las entradas de usuario: crea la base de datos e imprime las facturas y el resumen de ventas. Concéntrate en los métodos `Factura` y `ResumenVentas` para solucionar el reto.
