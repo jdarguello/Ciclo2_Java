@@ -18,7 +18,7 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 | ------ | ------- | ------ |
 | __Introducción a _Java___ | Variables | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/IntroJava.ipynb) |
 | __Condicionales__ | Estructuras if-else if-else | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/CondJava.ipynb) |
-| __Bucles__ | Ciclos for, while y do-while |     |
+| __Bucles__ | Ciclos for, while y do-while | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/BuclesJava.ipynb) |
 
 </div>
 
