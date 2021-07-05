@@ -10,7 +10,9 @@ En este repositorio encontrarás todo el material desarrollado para aprender Jav
 
 ### __Material interactivo__
 
-A continuación, podrás acceder al material interactivo desarrollado para familiarizarte con las bases del lenguaje:
+A continuación, podrás acceder al material interactivo desarrollado para familiarizarte con las bases del lenguaje.
+
+* ___Bases del lenguaje:___ variables, condicionales y bucles.
 
 <div align="center">
 
@@ -20,5 +22,17 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 | __Condicionales__ | Estructuras if-else if-else | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/CondJava.ipynb) |
 | __Bucles__ | Ciclos for, while y do-while | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/BuclesJava.ipynb) |
 
+
 </div>
+    
+* ___Programación Orientada a Objetos:___ métodos, estructuras de datos y clases.
+ 
+<div align="center">
+
+| Título | Temas | Enlace |
+| ------ | ------- | ------ |
+| __Métodos__ | Funciones y métodos |  |
+| __Estructuras de datos__ | Matrices, estructuras asimétricas y mapas |  |
+| __Clases__ | Programación orientada a objetos | |
+
 
