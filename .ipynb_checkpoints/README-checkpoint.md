@@ -31,7 +31,7 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 
 | Título | Temas | Enlace |
 | ------ | ------- | ------ |
-| __Métodos__ | Funciones y métodos |  |
+| __Métodos__ | Funciones y métodos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/MethodsJava.ipynb) |
 | __Estructuras de datos__ | Matrices, estructuras asimétricas y mapas |  |
 | __Clases__ | Programación orientada a objetos | |
 
