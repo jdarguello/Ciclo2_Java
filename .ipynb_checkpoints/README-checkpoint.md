@@ -33,6 +33,17 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 | ------ | ------- | ------ |
 | __Métodos__ | Funciones y métodos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/MethodsJava.ipynb) |
 | __Estructuras de datos__ | Matrices, estructuras asimétricas y mapas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/EstructurasDatosJava.ipynb) |
-| __Clases__ | Programación orientada a objetos | |
+| __Clases__ | Programación orientada a objetos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/ClasesJava.ipynb) |
+    
+</div>
 
+* ___Relación entre clases:___ UML, herencia y polimorfismo.
+
+<div align="center">
+
+| Título | Temas | Enlace |
+| ------ | ------- | ------ |
+| __UML__ | Lenguaje Unificado de Modelado |  |
+    
+</div>
 
