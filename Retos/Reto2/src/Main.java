@@ -1,34 +1,57 @@
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
     static Scanner input = new Scanner(System.in);
         public static void main(String[] args) {
             //Herramientas
+            HashMap<String, Integer> num = new HashMap<>();
             FinanzasP finanzas = new FinanzasP();
+
+            //Variables repetitivas
+            String nombre;
+            int valor, efectivo;
 
             while (true) {
                 byte opcion = opcionesG();
                 switch (opcion) {
                     case 1:
-                        finanzas.registrarFijos(input);
+                        System.out.print("Ingresa el nombre del gasto fijo: ");
+                        nombre = input.next();
+                        System.out.print("Indica el valor: ");
+                        valor = input.nextInt();
+                        finanzas.registrarFijos(nombre, valor);
                         break;
                     case 2:
-                        finanzas.gasto(input);
+                        System.out.print("Nombre del gasto: ");
+                        nombre = input.next();
+                        System.out.print("Indica el valor: ");
+                        valor = input.nextInt();
+                        finanzas.gasto(nombre, valor);
                         break;
                     case 3:
-                        finanzas.Efectivo(input);
+                        System.out.print("Cuanto dinero tienes en efectivo?");
+                        efectivo = input.nextInt();
+                        System.out.println("Has registrado: $" + efectivo + " de dinero en efectivo.\n");
+                        finanzas.Efectivo(efectivo);
                         break;
                     case 4:
-                        finanzas.EfElectronico(input);
+                        System.out.print("Cuanto dinero tienes en banco?");
+                        efectivo = input.nextInt();
+                        System.out.println("Has registrado: $" + efectivo + " de dinero en banco.\n");
+                        finanzas.EfElectronico(efectivo);
                         break;
                     case 5:
-                        finanzas.ConsultarCartera();
+                        int[] dinero = finanzas.ConsultarCartera();
+                        System.out.println("Dispones de $" + dinero[0] + " en efectivo y de $" + dinero[1] + " en banco.\n");
                         break;
                     case 6:
-                        finanzas.utilidades();
+                        int utilidad = finanzas.utilidades();
+                        System.out.println("Dispones de $" + utilidad + " para invertir en bolsa o criptomoneda.\n");
                         break;
                     case 7:
-                        finanzas.movimientosF();
+                        HashMap<String, Integer> movimientos = finanzas.movimientosF();
+                        System.out.println("Resumen de movimientos: $" + movimientos.get("Ingresos") + " de ingresos y $" + movimientos.get("Egresos") + " de egresos.");
                         break;
                 }
             }
