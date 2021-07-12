@@ -37,7 +37,7 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
     
 </div>
 
-* ___Relación entre clases:___ UML, herencia y polimorfismo.
+* ___Relación entre clases:___ UML, agregación, composición, herencia y polimorfismo, entre otros.
 
 <div align="center">
 
