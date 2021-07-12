@@ -47,3 +47,16 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
     
 </div>
 
+---
+
+### __Herramientas__
+
+Herramientas sugeridas para el proceso de aprendizaje:
+
+* [Google colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#recent=true) - Material interactivo para Python y Java (a través de `JShell`).
+
+* [JDoodle](https://www.jdoodle.com/online-java-compiler-ide/) - Compilador online de Java.
+
+* [draw.io](https://app.diagrams.net/) - Diagramas UML.
+
+* [BlueJ](https://www.rollapp.com/app/bluej) - UML interactivo en Java.
