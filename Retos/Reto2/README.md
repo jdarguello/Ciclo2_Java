@@ -34,27 +34,28 @@ La descripción de las clases se puede apreciar a continuación:
 
 La utilidad representa el dinero disponible para inversión.
 
-$$
-\begin{equation}
-    U = (Efectivo + Electronico) - \sum (Gastos_{fijos} + Gastos)
-\end{equation}
-$$
+<div align="center">
+
+<img src="https://render.githubusercontent.com/render/math?math=U= (Efectivo %2B Electronico) - \sum (Gastos_{fijos} %2B Gastos)">
+
+</div>
+
 
 
 ### Movimientos financieros
 
 * Ingresos (capital disponible):
 
-$$
-\begin{equation}
-    I = Efectivo + Electronico
-\end{equation}
-$$
+<div align="center">
+
+<img src="https://render.githubusercontent.com/render/math?math=I = Efectivo %2B Electronico">
+
+</div>
 
 * Egresos (gastos):
 
-$$
-\begin{equation}
-E = \sum (Gastos_{fijos} + Gastos)
-\end{equation}
-$$
+<div align="center">
+
+<img src="https://render.githubusercontent.com/render/math?math=E = \sum (Gastos_{fijos} %2B Gastos)">
+
+</div>
