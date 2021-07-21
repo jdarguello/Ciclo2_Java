@@ -49,6 +49,29 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
     
 </div>
 
+* ___Otras herramientas:___ clases y métodos abstractos e interfaces, entre otros.
+
+<div align="center">
+
+| Título | Temas | Enlace |
+| ------ | ------- | ------ |
+| __Abstracto__ | Clases abstractas e interfaces |  |
+| __Colecciones__ | Set, List, Queue y Deque |  |
+    
+</div>
+
+* ___Desarrollo de software:___ interfaces gráficas y bases de datos relacionales (SQLite).
+
+<div align="center">
+
+| Título | Temas | Enlace |
+| ------ | ------- | ------ |
+| __SQL__ | Bases de datos relacionales |  |
+| __Interfaces gráficas__ | JavaFX |  |
+    
+</div>
+
+
 ---
 
 ### __Herramientas__
