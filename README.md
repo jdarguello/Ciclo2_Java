@@ -44,7 +44,7 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 | Título | Temas | Enlace |
 | ------ | ------- | ------ |
 | __UML__ | Lenguaje Unificado de Modelado | [![views](https://img.shields.io/youtube/views/Z0yLerU0g-Q?style=social)](https://www.youtube.com/watch?v=Z0yLerU0g-Q) |
-| __Relaciones básicas__ | Agregación, composición y asociación |  |
+| __Relaciones básicas__ | Agregación, composición y asociación | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/RelacionesClases.ipynb)  |
 | __Herencia__ | Súper clases (_padre_) y subclase (_hijo_) | |
     
 </div>
