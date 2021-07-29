@@ -3,7 +3,7 @@
 
 <div align="justify">
 
-Decidiste emprender un largo y emocionante camino hacia el desarrollo de tu propia red social: TikzTak, que será conocida en Silicon Valley como la _"social revolution"_. 
+Decidiste emprender un largo y emocionante camino hacia el desarrollo de tu propia red social: TikzTak, que será conocida en Silicon Valley como la _"social revolution"_. Tienes la misión de construir un prototipo funcional de la red social.
     
 </div>
 
@@ -12,7 +12,7 @@ Decidiste emprender un largo y emocionante camino hacia el desarrollo de tu prop
 
 ![cd](TikzTak.png)
 
-
+El presente proyecto se compone de tres paquetes: `User`, `Publicaciones` y `Corporaciones`. Cada uno tiene sus propias clases internas, presentando la comunicación mostrada.
 
 ## __Estructura:__
 
@@ -38,10 +38,12 @@ Reto4
     │         └───Usuario.java
 ```
 
-La descripción de las clases se puede apreciar a continuación:
+A continuación, se describen las clases y paquetes:
 
-* Clase TikzTak (TikzTak.java_) -> contiene la estructura interactiva con el usuario (__no debes modificarla__).
-* Clase FinanzasP (_FinanzasP.java_) -> Debes desarrollar los métodos `utilidades`, `movimientosF` y `ConsultarCartera`.
+* Clase TikzTak (_TikzTak.java_) -> contiene la estructura interactiva con el usuario (no debes modificarla).
+* Paquete `User` -> contiene las clases Persona y Usuario. Ya está lista.
+* Paquete __`Publicaciones`__ -> contiene la lógica requerida para que los usuarios puedan crear y desarrollar contenidos, ya sean: publicaciones sencillas (__`Pub`__), historias (__`Historia`__) o reels (__`Reel`__). Debes construir las tres clases.
+* Paquete __`Corporaciones`__ -> permite la creación de usuarios tipo empresa (tus clientes). Debes crear la clase __`Empresa`__.
 
 
 
