@@ -55,7 +55,7 @@ A continuación, podrás acceder al material interactivo desarrollado para famil
 
 | Título | Temas | Enlace |
 | ------ | ------- | ------ |
-| __Abstracto__ | Clases abstractas e interfaces |  |
+| __Abstracto__ | Clases abstractas e interfaces | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jdarguello/Ciclo2_Java/blob/master/Interactivo/AbstractJava.ipynb) |
 | __Colecciones__ | Set, List, Queue y Deque |  |
     
 </div>
