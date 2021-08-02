@@ -1,6 +1,9 @@
 package User;
 
+import Publicaciones.Historia;
 import Publicaciones.Pub;
+import Publicaciones.Reel;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,22 +16,26 @@ public class Usuario extends Persona {
     private ArrayList<Usuario> sigueA = new ArrayList();
     private ArrayList<Usuario> seguidores = new ArrayList();
     private HashMap<Usuario, Pub[]> gustos = new HashMap();
-    private Pub[] publicaciones = {};
+    public Pub[] publicaciones = {};
 
-    //---Métodos---
-    public void gustaPublicacion (Usuario usuario, int id_pub) {
-        Pub[] gustos = this.gustos.get(usuario);                    //Obtener publicaciones de gustos provenientes de otro usuario
-        gustos = Arrays.copyOf(gustos, gustos.length+1);    //Se crea una copia y se incrementa en uno su longitud
-        //Añadir publicación que gustó
-        gustos[gustos.length-1] = usuario.obtenerPublicacion(id_pub);
-        this.gustos.put(usuario, gustos);
-
-    }
+    //---Metodos---
     public Pub obtenerPublicacion (int id_pub) {
         return this.publicaciones[id_pub];
     }
-    public void publicar(Pub publi) {
-        //Añadir nueva publicación
+
+    public void publicar(String[] contenido, String tipo) {
+        //Crear la publicacion
+        Pub publi = new Pub();
+        if (tipo.equals("sencilla")) {
+            publi = new Pub(contenido[0], contenido[1]);
+        } else if (tipo.equals("historia")) {
+            publi = new Historia(contenido[0], contenido[1], Integer.parseInt(contenido[2]), Integer.parseInt(contenido[3]), Integer.parseInt(contenido[4]));
+        } else {
+            //Es un Reel
+
+            publi = new Reel(contenido[0], contenido[1], Boolean.parseBoolean(contenido[2]), Integer.parseInt(contenido[3]));
+        }
+        //Anadir nueva publicación
         publicaciones = Arrays.copyOf(publicaciones, publicaciones.length+1);
         publicaciones[publicaciones.length-1] = publi;
     }
@@ -41,6 +48,15 @@ public class Usuario extends Persona {
             }
         }
     }
+
+    public ArrayList<Usuario> siguesA() {
+        return sigueA;
+    }
+
+    public ArrayList<Usuario> verSeguidores() {
+        return seguidores;
+    }
+
     public String nombreUsuario() {
         return this.nombre_user;
     }
