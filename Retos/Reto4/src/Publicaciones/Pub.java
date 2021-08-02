@@ -2,7 +2,7 @@ package Publicaciones;
 
 import User.Usuario;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Pub {
     //---Atributos---
@@ -17,21 +17,23 @@ public class Pub {
         this.contenido = contenido;
     }
 
-    public int[] likesMeEncanta () {
-        //Retorna el número de likes y corazones (me encanta)
-        int[] meGusta = {0,0};
-        //---Desarrolla la lógica---
+    public Pub() {
 
+    }
+
+    public int[] likesMeEncanta () {
+        //Retorna el numero de likes y corazones (me encanta)
+        int[] meGusta = {likes.length,meEncanta.size()};  //[num_likes, num_me_encanta]
         return meGusta;
     }
 
-    public Pub() {
-        System.out.println("Se creo un borrador");
-    }
 
     public void meGusta(Usuario user) {
-        //Contenido a reemplazar...
-        System.out.println("Deberia ocurrir algo que todavia no...");
+        //Objetivo: Anadir un nuevo 'like' a una publicacion
+        //1. Se creo la copia del array original con un comp. adicional
+        likes = Arrays.copyOf(likes, likes.length+1);
+        //2. Modificamos el ultimo componente
+        likes[likes.length-1] = user;
     }
 
     public void noMeGusta(Usuario user) {
@@ -40,8 +42,7 @@ public class Pub {
     }
 
     public void meEncanta(Usuario user) {
-        //Contenido a reemplazar...
-        System.out.println("Deberia ocurrir algo que todavia no...");
+        meEncanta.add(user);
     }
 
     public void noMeEncanta(Usuario user) {
@@ -57,3 +58,4 @@ public class Pub {
         return contenido;
     }
 }
+
