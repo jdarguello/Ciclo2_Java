@@ -9,7 +9,7 @@ public class Pub {
     protected String nombre;
     protected String contenido;
     public Usuario[] likes = {};
-    public ArrayList<Usuario> meEncanta = new ArrayList();
+    public ArrayList<Usuario> meEncanta = new ArrayList<Usuario>();
 
     //---Metodos---
     public Pub(String nombre, String contenido) {

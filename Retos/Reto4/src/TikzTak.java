@@ -13,7 +13,7 @@ public class TikzTak {
     static Usuario usuarioRef;
 
     public static void main(String[] args) {
-        //---Creación de usuarios---
+        //---Creacion de usuarios---
         Usuario delta = new Usuario("Joaquim Low", (byte)22, "jolow@gmail.com", "jolow");
         Usuario omega = new Usuario("Moise Low", (byte)28, "molow@gmail.com", "Ingeniero" ,"molow");
         Usuario alpha = new Usuario("Juan", (byte)17, "juan@gmail.com", "juan");
@@ -72,7 +72,7 @@ public class TikzTak {
                     break;
             }
         }
-        System.out.println("Cierre de sesión...");
+        System.out.println("Cierre de sesion...");
     }
 
     public static void crearPub (String tipo) {
@@ -123,7 +123,7 @@ public class TikzTak {
         System.out.println(ultOpcion + ". Volver a inicio");
         byte opcion = input.nextByte();
         if (opcion <0 || opcion > ultOpcion) {
-            System.out.println("No existe la opción " + opcion);
+            System.out.println("No existe la opcion " + opcion);
             opcion = -1;
         } else if (opcion == ultOpcion) {
             opcion = -1;
@@ -276,7 +276,7 @@ public class TikzTak {
 
     public static Usuario cambioUsuario () {
         Usuario user = users[0];
-        byte opcion = (byte)(users.length+1);   //Opción inexistente
+        byte opcion = (byte)(users.length+1);   //Opcion inexistente
         boolean condicion = true;
         while (condicion) {
             System.out.println(pickUser(true));
@@ -309,7 +309,7 @@ public class TikzTak {
     public static String[] datosEmpresa () {
         System.out.println("Escribe el nombre de usuario corporativo:");
         String corpo = input.next();
-        System.out.println("Escribe el correo electrónico corporativo:");
+        System.out.println("Escribe el correo electronico corporativo:");
         String email = input.next();
         return new String[] {email, corpo};
     }

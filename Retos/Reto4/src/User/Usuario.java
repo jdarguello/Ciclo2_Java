@@ -13,9 +13,8 @@ public class Usuario extends Persona {
     //---Atributos---
     public String nombre_user;
     private String contra;
-    private ArrayList<Usuario> sigueA = new ArrayList();
-    private ArrayList<Usuario> seguidores = new ArrayList();
-    private HashMap<Usuario, Pub[]> gustos = new HashMap();
+    private ArrayList<Usuario> sigueA = new ArrayList<Usuario>();
+    private ArrayList<Usuario> seguidores = new ArrayList<Usuario>();
     public Pub[] publicaciones = {};
 
     //---Metodos---
@@ -35,7 +34,7 @@ public class Usuario extends Persona {
 
             publi = new Reel(contenido[0], contenido[1], Boolean.parseBoolean(contenido[2]), Integer.parseInt(contenido[3]));
         }
-        //Anadir nueva publicación
+        //Anadir nueva publicacion
         publicaciones = Arrays.copyOf(publicaciones, publicaciones.length+1);
         publicaciones[publicaciones.length-1] = publi;
     }
@@ -64,8 +63,8 @@ public class Usuario extends Persona {
         this.seguidores.add(user);
     }
     public void seguir(Usuario user) {
-        this.sigueA.add(user);          //Añadir usuario a lista de genta a quienes sigue
-        user.serSeguido(this);      //Añadir usuario actual a la lista de seguidores del otro usuario
+        this.sigueA.add(user);          //Anadir usuario a lista de genta a quienes sigue
+        user.serSeguido(this);      //Anadir usuario actual a la lista de seguidores del otro usuario
     }
     public void cambiarContra(String[] msgs) {
         Scanner input = new Scanner(System.in);

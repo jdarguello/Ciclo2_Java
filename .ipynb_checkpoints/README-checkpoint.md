@@ -85,3 +85,5 @@ Herramientas sugeridas para el proceso de aprendizaje:
 * [draw.io](https://app.diagrams.net/) - Diagramas UML.
 
 * [BlueJ](https://www.rollapp.com/app/bluej) - UML interactivo en Java.
+
+* [SQLite](https://sqliteonline.com/) - Compilador SQL online.
