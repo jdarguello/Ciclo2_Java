@@ -1,8 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
-         System.out.println("Hola");
          CRUD test = new CRUD();
 
-         test.connect();
+         //Crear tabla
+         String query = "CREATE TABLE IF NOT EXISTS personas (" +
+                 "ID INTEGER PRIMARY KEY AUTOINCREMENT," +
+                 "nombre TEXT NOT NULL," +
+                 "edad INTEGER NOT NULL" +
+                 ");";
+         test.SQLExec(query);
     }
 }
