@@ -18,7 +18,9 @@ public class Pub {
     }
 
     public Pub() {
+        //No hay que hacerle nada.
 
+        //Esta estipulado para crear 'borradores'
     }
 
     public int[] likesMeEncanta () {
@@ -37,8 +39,28 @@ public class Pub {
     }
 
     public void noMeGusta(Usuario user) {
-        //Contenido a reemplazar...
-        System.out.println("Deberia ocurrir algo que todavia no...");
+        //likes = [John, Monica, Luis]
+        //Eliminemos a Monica -> likes = [John, Luis]
+
+        //1.Creamos un array "vacio" con la misma longitud de 'likes' -1
+        Usuario[] nuevos_likes = new Usuario[likes.length-1];
+
+        //2. Llenar la informacion sin el Usuario que ya no gusta de la publicacion
+        int contador = 0;   //Toma la posicion del array 'nuevos_likes'
+        for (int i=0; i<likes.length;i++) {
+            if (!(likes[i]).equals(user)) {    //Si el 'usuario' es diferente al 'user'...
+                nuevos_likes[contador] = likes[i];
+                contador++;
+            }
+        }
+
+        //3. Reemplazar el array de 'likes'
+        likes = nuevos_likes;
+
+    }
+
+    public void editarContenido (String nuevo) {
+        this.contenido = nuevo;
     }
 
     public void meEncanta(Usuario user) {
@@ -46,8 +68,7 @@ public class Pub {
     }
 
     public void noMeEncanta(Usuario user) {
-        //Contenido a reemplazar...
-        System.out.println("Deberia ocurrir algo que todavia no...");
+        meEncanta.remove(user);
     }
 
     public String obtenerNombre() {

@@ -31,7 +31,6 @@ public class Usuario extends Persona {
             publi = new Historia(contenido[0], contenido[1], Integer.parseInt(contenido[2]), Integer.parseInt(contenido[3]), Integer.parseInt(contenido[4]));
         } else {
             //Es un Reel
-
             publi = new Reel(contenido[0], contenido[1], Boolean.parseBoolean(contenido[2]), Integer.parseInt(contenido[3]));
         }
         //Anadir nueva publicacion
