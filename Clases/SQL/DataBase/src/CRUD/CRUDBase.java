@@ -16,7 +16,7 @@ public class CRUDBase {
     private void selecBD(String nombre) {
         //Permite seleccionar la base de datos con la cual trabajar
         this.db = new File(nombre + ".db");
-        this.jdbc = "jdbc:sqlite:" + nombre;
+        this.jdbc = "jdbc:sqlite:" + nombre + ".db";
 
         this.crearBD();
     }
@@ -50,6 +50,8 @@ public class CRUDBase {
              Statement stmt = conn.createStatement()) {
 
             stmt.execute(sql);
+
+            conn.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -79,6 +81,7 @@ public class CRUDBase {
                 //String [] subres = {String.valueOf(rs.getInt("id")), rs.getString("name")};
                 res[res.length-1] = subres;
             }
+            conn.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

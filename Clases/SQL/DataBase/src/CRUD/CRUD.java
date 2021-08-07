@@ -4,11 +4,60 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class CRUD extends CRUDBase {
-    private HashMap<String, Object[][]> tablas = new HashMap<String, Object[][]>(); //Almacena toda la información de las tablas creadas
+    private HashMap<String, ArrayList<ArrayList<Object>>> tablas = new HashMap<String, ArrayList<ArrayList<Object>>>(); //Almacena toda la información de las tablas creadas
+    private boolean inicio = true;
 
     public CRUD(String nombre) {
         super(nombre);
+        //Crear tabla de referencias
+        this.crearTabla("refTablas", new Object[][]{
+                {"nombreTabla", "TEXT", true},
+                {"Contenido", "TEXT", true}
+        });
+        this.inicio = false;
+
+        //Leer tabla de referencias
+        ArrayList<ArrayList<Object>> contTablas = this.leerTodo("refTablas");
+        for (ArrayList<Object> tabla: contTablas) {
+            String cont = (String)(tabla.get(1));
+            cont = cont.substring(1, cont.length() - 1);
+
+            String[] columnas = (cont.split("=")[0]).split(",");
+
+            ArrayList<ArrayList<Object>> columns = new ArrayList<ArrayList<Object>>();
+            columns.add(new ArrayList<Object>());
+            for (int i=0; i< columnas.length;i++) {
+                Character ultLetra = columnas[i].charAt(columnas[i].length()-1);
+                //Agregar contenido
+                columns.get(columns.size()-1).add(columnas[i].replace("[", "").replace("]", "").replace(" ", ""));
+                if (ultLetra.equals(']')) {
+                    columns.add(new ArrayList<Object>());
+                }
+            }
+            columns.remove(new ArrayList<Object>());
+
+            //---Convertir booleanos---
+            for (int i=0; i<columns.size();i++) {
+                for (int j=0; j<columns.get(i).size();j++) {
+                    if ((columns.get(i).get(j)).equals("true")) {
+                        columns.get(i).set(j, true);
+                    } else if((columns.get(i).get(j)).equals("false")) {
+                        columns.get(i).set(j, false);
+                    }
+                }
+            }
+            tablas.put((String)(tabla.get(0)), columns);
+        }
     }
+
+    private ArrayList<ArrayList<Object>> arrayToArrayList(Object[][] array) {
+        ArrayList<ArrayList<Object>> nuevo = new ArrayList<ArrayList<Object>>();
+        for (Object[] contenidos: array) {
+            nuevo.add(new ArrayList<Object>(Arrays.asList(contenidos)));
+        }
+        return nuevo;
+    }
+
     public void crearTabla(String nombre, Object[][] columnas) {
         //Ej: columnas = [["ID", "integer", true, true], ["nombre", "text", false], ["costo", "integer"]]
         //               nombre, tipo, not null, autoincrement
@@ -33,7 +82,14 @@ public class CRUD extends CRUDBase {
         this.SQLExec(query);
 
         //Almacenar información de la tabla
-        this.tablas.put(nombre, columnas);
+        this.tablas.put(nombre, arrayToArrayList(columnas));
+
+        //Anadir contenido general a 'refTablas'
+        if (!this.inicio) {
+            this.guardarFila("refTablas", new Object[][] {
+                    {"\"" + nombre + "\"", "\"" + tablas.get(nombre).toString() + "\""}
+            });
+        }
     }
 
     public void eliminarTabla(String nombre) {
@@ -41,9 +97,20 @@ public class CRUD extends CRUDBase {
         this.SQLExec(query);
     }
 
+    private Object[][] arraylistToArray (ArrayList<ArrayList<Object>> arrayL) {
+        Object[][] array = new Object[arrayL.size()][];
+        for (int i=0; i<arrayL.size();i++) {
+            array[i] = new Object[arrayL.get(i).size()];
+            for (int j=0; j<arrayL.get(i).size();j++) {
+                array[i][j] = arrayL.get(i).get(j);
+            }
+        }
+        return array;
+    }
+
     public ArrayList<ArrayList<Object>> leerTodo (String nombre) {
         String query = "SELECT * FROM " + nombre;
-        Object[][] filas = this.SQLReturn(query, this.tablas.get(nombre));
+        Object[][] filas = this.SQLReturn(query, arraylistToArray(this.tablas.get(nombre)));
 
         //Convertir a ArrayList
         ArrayList<ArrayList<Object>> datos = new ArrayList<ArrayList<Object>>();
@@ -54,8 +121,24 @@ public class CRUD extends CRUDBase {
         return datos;
     }
 
-    public ArrayList<ArrayList<Object>> leerFiltrado (String nombre, String condicion) {
+    public ArrayList<ArrayList<Object>> leerFiltrado (String nombre, String[][] condiciones) {
+        //--Condicion de filtrado--
+        String query = "SELECT * FROM " + nombre + " WHERE ";
+        for (String[] items: condiciones) {
+            for (String item: items) {
+                if (!(item.equals("AND")) && !(item.equals("OR"))) {
+                    query += item + " IS ";
+                } else {
+                    query = query.substring(0,query.length()-3);
+                    query += item + " ";
+                }
+            }
+        }
+        query = query.substring(0, query.length()-4);
+        query += ";";
+        //System.out.println(query);
 
+        //--
         return new ArrayList<>();
     }
 
@@ -70,6 +153,7 @@ public class CRUD extends CRUDBase {
             query += "),\n";
         }
         query = query.substring(0, query.length()-2) + ";";
+        //System.out.println(query);
         this.SQLExec(query);
     }
 
